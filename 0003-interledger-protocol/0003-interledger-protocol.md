@@ -78,13 +78,7 @@ The model of operation for transmitting funds from one application to another is
 
 > The interledger module determines that the payment is for an application in this host. It passes the data to the application, passing the source address and other parameters as results of the call.
 
-    Application                                          Application
-           \                                                /
-      Interledger Module   Interledger Module   Interledger Module
-              \                 /       \                /
-              LLI-1          LLI-1      LLI-2         LLI-2
-                 \           /             \          /
-                 Local Ledger 1           Local Ledger 2
+![](assets/model.svg)
 
 ### Function Description
 
